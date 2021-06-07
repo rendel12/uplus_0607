@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <title>uplus_지급조회_0518</title>
+        <!--css-->
+        <link rel="stylesheet" type="text/css" href="css/uplus_custom.css">
+        <!--css-->
+        
+        <!--스크립트-->
+        
+        <!--스크립트-->
+    </head>
+    <body>
+    	<h5>이마트 신세계상품권모바일 조회 · 승인 시스템</h5>
+    <!--전체-->
+    <div id="wrap">
+			<!--container-->
+			<div id="container">
+			<!--header-->
+			<header id="header">
+				<h1><img src="./images/main/main_logo.png"></h1>
+			</header>
+			<!--header-->
+
+			<!--gnb-->
+				<div class="gnb_wrap">
+					<div class="gnb gnb_left">
+						<h2>&#9672; 회계단위&#40;지급점포&#41; : <input></h2>
+					</div>
+					<div class="gnb gnb_right">
+						<ul>
+							<li>&#9672; 재발송 문의 : 1644-7000&#40;유플러스&#41;</li>
+							<li>&#9672; 시스템 문의 : 02-6965-7122&#40;모카&#41;</li>
+						</ul>
+					</div>
+			</div>
+			<!--gnb-->
+			
+			<!--con_wrap-->
+			<div class="con_wrap">
+				<!--main_con01-->
+				<div class="main_con01">
+					<h3>&#9632; 지급조회<span style="color:#be0c0c;">&#40;교환X&#41;</span></h3>
+					<div class="con01_btn">
+						<button class="bg_red">조회</button>
+						<button class="bg_gray">초기화</button>
+					</div>
+					<div class="con01_sec01">
+						<table class="con01_table01 table">
+							<tr>
+								<td>핸드폰번호</td>
+								<td style="width:260px;"><select><option>010</option></select> - <input> - <input></td>
+								<td rowspan="2" style="width:30px;">&#9654;</td>
+								<td>생년월일</td>
+								<td style="width:200px;"><input class="input_size01"></td>
+								<td rowspan="2" class="table_border"></td>
+								<td>법인가입자</td>
+								<td><input type="checkbox" style="margin:0; padding:0; height:18px; width:18px; vertical-align:bottom;"></td>
+							</tr>
+							<tr>
+								<td>쿠폰번호</td>
+								<td><input class="input_size04"></td>
+								<td>성별</td>
+								<td>
+									<select name="gender" class="gender input_size01">
+										<option>남자</option>
+										<option>여자</option>
+										<option>외국인 남자</option>
+										<option>외국인 여자</option>
+									</select>
+								</td>
+								<td>법인등록번호</td>
+								<td><input class="input_size01"></td>
+							</tr>
+   					</table>
+					</div>
+
+					<div class="con01_sec02 cf">
+						<div style="overflow-y:scroll; height:100px; width:90%; float:left; border:1px solid #ddd; box-sizing:border-box;">
+						<table class="con01_table02 table">
+    				<tr class="table_tit" style="background-color:#ebebeb;">
+    						<th>NO</th>
+								<th>선택</th>
+								<th>지급여부</th>
+								<th>행사명</th>
+								<th>지급가능금액</th>
+								<th>사업자번호</th>
+								<th>업체명</th>
+								<th>행사처</th>
+    				</tr>
+    				<tr>
+								<td>1</td>
+								<td><input type="checkbox"></td>
+								<td>미지급</td>
+								<td>유플러스</td>
+								<td>10,000</td>
+								<td>14524789564</td>
+								<td>유플러스</td>
+								<td>이마트</td>
+						</tr>
+    			</table>
+						</div>
+					<div class="confirm01">
+						<button class="bg_blue btn_big">고객인증</button>
+					</div>
+					</div>
+				</div>
+				<!--main_con01-->
+
+				<!--main_con02-->
+				<div class="main_con02">
+					<h3>&#9632; 지급</h3>
+					<div class="con02_btn con_btn">
+						<button class="bg_red">입력</button>
+						<button class="bg_gray">삭제</button>
+						<button class="bg_gray">초기화</button>
+					</div>
+				</div>
+				<div class="con02_sec01">
+						<table class="con02_table01 table">
+							<tr>
+								<td>지급처</td>
+								<td style="width:200px;"><input> <input></td>
+								<td>지급일자</td>
+								<td style="width:200px;"><input></td>
+								<td>지급자</td>
+								<td><input></td>
+								<td rowspan="2"></td>
+							</tr>
+							<tr>
+								<td>지급금액</td>
+								<td><input></td>
+								<td>인증번호</td>
+								<td><input> <input></td>
+								<td>고객명</td>
+								<td><input><label><input type="checkbox">강제확정</label></td>
+							</tr>
+   					</table>
+					</div>
+
+					<div class="con02_sec02 cf" style="height:225px;">
+						<div style="height:225px; width:90%; float:left; border:1px solid #ddd; box-sizing:border-box;">
+							<table class="con02_table02">
+								<tr class="con02_table02_tit tit_top">
+									<td rowspan="2">NO</td>
+									<td rowspan="2">선택</td>
+									<td colspan="2">권종</td>
+									<td rowspan="2">권면금액</td>
+									<td rowspan="2">매수</td>
+									<td rowspan="2">금액</td>
+								</tr>
+								<tr class="con02_table02_tit tit_bot">
+									<td>코드</td>
+									<td>명</td>
+								</tr>
+								<tr>
+									<td>1</td>
+									<td><input type="checkbox"></td>
+									<td>6555</td>
+									<td>오십만원신권(이마트)</td>
+									<td>500,000</td>
+									<td>100</td>
+									<td>50,000,000</td>
+								</tr>
+							</table>
+						</div>
+					<div class="confirm02">
+						<button class="bg_blue btn_big">지급확정</button>
+					</div>
+					</div>
+				<!--main_con02-->
+			</div>
+			</div>
+			<!--container-->
+		</div>
+    <!--전체-->
+    </body>
+</html>
